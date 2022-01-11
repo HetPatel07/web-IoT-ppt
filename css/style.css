@@ -1,0 +1,272 @@
+body {
+    background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+}
+
+.slide {
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    display: block;
+    padding: 40px;
+    margin: 20px auto;
+    font-size: 48px;
+    background-color: black;
+    line-height: 1.5;
+}
+
+.slide p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slide h1 {
+    padding: 15px 0;
+}
+
+.step1 {
+    background-image: url(/images/step1change.jpg);
+    background-color: transparent;
+    background-size: 0 center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step2 {
+    width: 1000px;
+    background-image: url(/images/step2change.jpg);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step3 {
+    width: 1000px;
+    background-image: url(/images/step2.gif);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step4 {
+    width: 1000px;
+    background-image: url(/images/step3.gif);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step5 {
+    background-image: url(/images/step4.gif);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step6 {
+    width: 1100px;
+    height: 800px;
+    background-image: url(/images/iotFuture.png);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step8 {
+    width: 1000px;
+    height: 750px;
+    background-image: url(/images/iotFuturePotential.jpg);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step9 {
+    width: 800px;
+    /* height: 750px; */
+    background-image: url(/images/iotCC.jpg);
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step10 {
+    background-color: #fff;
+    width: 1000px;
+    background-image: url(/images/iotCCdetail.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step11 {
+    width: 800px;
+    background-color: #fff;
+    overflow: hidden;
+    padding-left: 80px;
+}
+
+.step11 span {
+    float: left !important;
+    font-size: 40px;
+}
+
+.content {
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: capitalize;
+    /* font-family: 'PT Serif', serif; */
+}
+
+.content h1{
+    font-size: 44px;
+    font-weight: 900;
+}
+.content ul {
+    padding: 40px;
+}
+.content ul li{
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.8;
+}
+.step11 h1 {
+    float: left !important;
+    clear: left;
+    text-align: left;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.step12 {
+    background-color: #fff;
+    /* width: 1000px; */
+    background-image: url(/images/iotBg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step13,.step19{
+    font-family: 'PT Serif', serif;
+    background: transparent;
+}
+
+.step13,
+.step17 span {
+    font-size: 50px;
+    display: block;
+}
+
+.step13 span:nth-of-type(2),.step19 span:nth-of-type(2){
+    font-weight: bold;
+    font-size: 150px;
+    display: block;
+}
+
+.step17 span:nth-of-type(2) {
+    font-weight: bold;
+    font-size: 150px;
+    display: block;
+}
+
+.step14 {
+    width: 1000px;
+    background-color: transparent;
+    /* height: 100%; */
+    background-image: url(/images/iotDEf2.jpg);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step15 {
+    width: 900px;padding: 10px;
+    padding: 10px;
+    object-fit: cover;
+    background-color: #fff;
+    /* background-image: url(/images/iotExmple.png); */
+    /* background-size: contain 100%; */
+    /* background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.step16 {
+    width: 800px;
+    padding: 10px;
+
+    object-fit: cover;
+    background-color: #fff ;
+    /* background-image: url(/images/iotHistory.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.step17 {
+    width: 700px;
+    background-color: #fff;
+    background-image: url(/images/iotTesla.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step18 {
+    width: 1400px;
+    background-color: transparent;
+    height: 800px;
+    background-image: url(/images/iotHistoryDetail.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step19 {   
+    width: 1000px;
+    
+}
+
+.step20 {
+    margin-left: 50px;
+    width: 900px;
+    background-color: #fff;
+    background-image: url(/images/iotWork.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.step21 {
+    width: 900px;
+    background-color: #fff;
+    background-image: url(/images/iotWorkExample.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step22 {
+    background-image: url(/images/step22.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.step23 {
+    background-image: url(/images/step23.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
