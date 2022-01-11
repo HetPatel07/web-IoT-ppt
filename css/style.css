@@ -99,25 +99,47 @@ body {
 
 .step10 {
     background-color: #fff;
-    width: 1000px;
-    background-image: url(/images/iotCCdetail.jpg);
+    /* width: 1000px; */
+    /* background-image: url(/images/iotCCdetail.jpg); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.step10 .content{
+color: #333;
+}
+
+.step10 .content ul li{
+    font-size: 28px;
+    font-weight: 400;
+}
+
 .step11 {
     width: 800px;
     background-color: #fff;
+    
     overflow: hidden;
     padding-left: 80px;
 }
 
-.step11 span {
-    float: left !important;
-    font-size: 40px;
+.step50{
+    width: 800px;
+    background-color: #fff;
+    background-image: url(/images/iotApp.png.crdownload);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+.step0{
+    width: 800px;
+    background-color: #fff;
+    background-image: url(/images/iotAppDetail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .content {
     overflow: hidden;
     color: #fff;
@@ -140,13 +162,7 @@ body {
     text-align: left;
     line-height: 1.8;
 }
-.step11 h1 {
-    float: left !important;
-    clear: left;
-    text-align: left;
-    font-size: 150px;
-    font-weight: bold;
-}
+
 
 .step12 {
     background-color: #fff;
