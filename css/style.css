@@ -80,9 +80,9 @@ body {
 .step8 {
     width: 1000px;
     height: 750px;
-    background-image: url(/images/iotFuturePotential.jpg);
+    background-image: url(/images/smartcity.JPG);
     background-color: transparent;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
